@@ -1,7 +1,6 @@
 # Laravel table comment for migration
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/chuoke/laravel-table-comment.svg?style=flat-square)](https://packagist.org/packages/chuoke/laravel-table-comment)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/chuoke/laravel-table-comment/run-tests?label=tests)](https://github.com/chuoke/laravel-table-comment/actions?query=workflow%3ATests+branch%3Amaster)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/chuoke/laravel-table-comment/Check%20&%20fix%20styling?label=code%20style)](https://github.com/chuoke/laravel-table-comment/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/chuoke/laravel-table-comment.svg?style=flat-square)](https://packagist.org/packages/chuoke/laravel-table-comment)
 
