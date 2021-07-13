@@ -27,11 +27,6 @@
             "Chuoke\\LaravelTableComment\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Chuoke\\LaravelTableComment\\Tests\\": "tests"
-        }
-    },
     "scripts": {
         "psalm": "vendor/bin/psalm",
         "test": "vendor/bin/phpunit",
