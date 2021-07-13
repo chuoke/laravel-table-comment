@@ -2,12 +2,11 @@
 
 namespace Chuoke\LaravelTableComment;
 
-use Exception;
-use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;
+use Illuminate\Database\Migrations\Migration as AbstractMigration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Schema\Grammars\Grammar;
-use Illuminate\Database\Migrations\Migration as AbstractMigration;
+use Illuminate\Support\Fluent;
 
 class Migration extends AbstractMigration
 {
@@ -19,7 +18,7 @@ class Migration extends AbstractMigration
     protected function addCommentTableMethod()
     {
         Blueprint::macro('comment', function ($comment) {
-            if (!Grammar::hasMacro('compileCommentTable')) {
+            if (! Grammar::hasMacro('compileCommentTable')) {
                 Grammar::macro('compileCommentTable', function (Blueprint $blueprint, Fluent $command, Connection $connection) {
                     switch ($databaseDriver = $connection->getDriverName()) {
                         case 'mysql':
